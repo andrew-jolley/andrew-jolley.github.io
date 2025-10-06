@@ -150,38 +150,44 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="alpha-badge">
-                        <i class="bi bi-exclamation-triangle"></i> Alpha Version
+                        <i class="bi bi-exclamation-diamond-fill"> Release Candidate (RC) </div>i> Release Candidate (RC)
                     </div>
                     <h1 class="display-4 fw-bold mb-4">
                         📚 Lecture Logger
                     </h1>
+                    <p class="mb-2">
+                        <a href="https://github.com/andrew-jolley/lecture-logger/releases/latest" target="_blank" rel="noopener">
+                            <img src="https://img.shields.io/github/v/release/andrew-jolley/lecture-logger?label=RC&amp;logo=github" alt="RC badge">
+                        </a>
+                    </p>
+                    <p class="text-muted small">Last updated: 6 Oct 2025</p>
                     <p class="lead mb-4">
                         A powerful desktop application designed to help students efficiently track and log their lectures into Excel spreadsheets. Perfect for academic tracking, apprenticeships, and knowledge management.
                     </p>
                     
                     <!-- Download Buttons -->
                     <div class="d-flex flex-wrap justify-content-start">
-                        <a href="https://github.com/andrew-jolley/lecture-logger/releases/download/v2.4.0a/Lecture.Logger-2.4.0-arm64.dmg" class="download-btn mac-btn" onclick="downloadMac()">
-                            <i class="bi bi-apple"></i> Download for Mac
+                        <a href="https://github.com/andrew-jolley/lecture-logger/releases/latest" class="download-btn mac-btn" target="_blank" rel="noopener">
+                            <i class="bi bi-apple"></i> Download (Releases)
                         </a>
-                        <a href="https://github.com/andrew-jolley/lecture-logger/releases/download/v2.4.0a/Lecture.Logger.Setup.2.4.0.exe" class="download-btn windows-btn" onclick="downloadWindows()">
-                            <i class="bi bi-windows"></i> Download for Windows
+                        <a href="https://github.com/andrew-jolley/lecture-logger/releases/latest" class="download-btn windows-btn" target="_blank" rel="noopener">
+                            <i class="bi bi-windows"></i> Download (Releases)
                         </a>
                     </div>
                     
                     <div class="warning-box mt-4">
-                        <h6><i class="bi bi-info-circle text-warning"></i> Alpha Release Notice</h6>
+                        <h6><i class="bi bi-info-circle text-warning"></i> Release Candidate</h6>
                         <p class="mb-0">
-                            This is an alpha version with limited features. Some functionality may be incomplete or subject to change. 
-                            Perfect for early adopters and testing environments.
+                            Lecture Logger v2.8.1-rc is available as a release candidate. Please review the release notes and test assets on GitHub.
+                            <a href="https://github.com/andrew-jolley/lecture-logger/releases/latest" target="_blank" rel="noopener">View RC on GitHub</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
                     <div class="bg-white rounded shadow-lg p-4 d-inline-block">
                         <h3 class="gradient-text">Current Version</h3>
-                        <div class="stat-number">v2.4.0</div>
-                        <p class="text-muted">Build 20250922.099</p>
+                        <div class="stat-number">v2.8.1-rc</div>
+                        <p class="text-muted">Release Candidate — see GitHub releases</p>
                     </div>
                 </div>
             </div>
@@ -210,7 +216,7 @@
                             <i class="bi bi-journal-bookmark feature-icon"></i>
                             <h5 class="card-title">KSB Mapping</h5>
                             <p class="card-text">
-                                Automatically maps module codes to Knowledge, Skills & Behaviours for apprenticeship tracking.
+                                Automatically maps module codes to Knowledge, Skills &amp; Behaviours for apprenticeship tracking.
                             </p>
                         </div>
                     </div>
@@ -295,24 +301,15 @@
     <!-- Alpha Features Section -->
     <section class="py-5">
         <div class="container">
-            <h2 class="section-title">Alpha Release Limitations</h2>
+            <h2 class="section-title">Release Notes &amp; Status</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="alert alert-warning d-flex align-items-start">
-                        <i class="bi bi-exclamation-triangle-fill me-3 mt-1"></i>
+                    <div class="alert alert-info d-flex align-items-start">
+                        <i class="bi bi-info-circle-fill me-3 mt-1"></i>
                         <div>
-                            <h5 class="alert-heading">Early Development Stage</h5>
-                            <p class="mb-2">This alpha version includes core functionality but may be missing some features:</p>
-                            <ul class="mb-2">
-                                <li>Limited error handling in some scenarios</li>
-                                <li>Basic user interface (UI improvements planned)</li>
-                                <li>Manual Excel file management required</li>
-                                <li>No data backup or sync features yet</li>
-                                <li>Windows version may require additional configuration</li>
-                            </ul>
-                            <p class="mb-0">
-                                <strong>Ideal for:</strong> Students, researchers, and early adopters who want to test academic tracking tools.
-                            </p>
+                            <h5 class="alert-heading">v2.8.1-rc — What to expect</h5>
+                            <p class="mb-2">This release candidate contains UI updates, bug fixes and improvements to the embedded Python integration. Please help test and report issues on GitHub.</p>
+                            <p class="mb-0"><a href="https://github.com/andrew-jolley/lecture-logger/releases/latest" target="_blank" rel="noopener">Lecture Logger RC (GitHub)</a></p>
                         </div>
                     </div>
                 </div>
@@ -371,12 +368,10 @@
                 </div>
                 <div class="col-md-6 text-md-end">
                     <h6>Built with</h6>
-                    <p class="text-muted">
-                        Electron • Bootstrap • ExcelJS • Node.js
-                    </p>
-                    <p class="text-muted">
-                        Version 2.4.0 • Build 20250922.099
-                    </p>
+                        <p class="text-muted">
+                            Electron v38.2.0 · Bootstrap 5.3.2 · Python (openpyxl) · Node.js
+                        </p>
+                    <p class="text-muted">Version v2.8.1-rc</p>
                 </div>
             </div>
             <hr class="my-4">
@@ -388,7 +383,7 @@
                 </div>
                 <div class="col-md-6 text-md-end">
                     <small class="text-muted">
-                        For Birmingham City University students • Alpha Release
+                            For Birmingham City University students · Release v2.8.1
                     </small>
                 </div>
             </div>
